@@ -1,7 +1,7 @@
 import Cards from "./Cards";
 import ReactPlayer from 'react-player'
 import '../index.css';
-import { FlashcardComponent } from 'react-flashcard'
+import { FlashcardComponent } from 'react-flashcard';
 
 const cardData = [
   {
