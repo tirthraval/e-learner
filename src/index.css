@@ -25,6 +25,9 @@ input{
   margin-top: 50px;
 }
 .home-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
     width: 500px;
 }
