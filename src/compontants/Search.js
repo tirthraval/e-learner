@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 import '../index.css';
 
 const Search = (prop) => {
-
+    // my name is tirthjhub
     return(
         <>
             <div style = {{marginTop:"20px"}}>
@@ -13,7 +13,7 @@ const Search = (prop) => {
                         <Cards  source = "./img/1.jpeg" text ="Open the application and click on where to go"/>
                         <Cards  source = "./img/2.jpeg" text  = "select the location where you want to go"/>
                         <Cards  source = "./img/3.jpeg" text = "select the car type and you will able to see the amount"/>
-                        <Cards source = "./img/4.jpeg" text = " click on confirm your pickup"/>
+                 <Cards source = "./img/4.jpeg" text = " click on confirm your pickup"/>
 
                     </div>
                 </div>
