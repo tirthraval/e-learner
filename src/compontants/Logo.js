@@ -35,7 +35,7 @@ const Logo = () =>{
     return( 
         <>
             
-                {/* <img class="home-image" src="img/logo.png" alt="Logo"/> */}
+                <img class="home-image" src="img/logo.png" alt="Logo"/>
                 <div className='container-input'>
                 
                     <input 
