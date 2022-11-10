@@ -23,6 +23,7 @@ const Header =  () =>{
                         <Nav.Link href="#features">About us</Nav.Link>
                     </Nav>
                     <Nav>
+                        
                    <Dropdown>  
                     <Dropdown.Toggle variant=" primary" id="dropdown-basic">  
                     <Nav.Link><CgProfile/></Nav.Link>
