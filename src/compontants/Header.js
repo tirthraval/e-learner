@@ -2,6 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {CgProfile} from 'react-icons/cg';
+import {FiSettings} from 'react-icons/fi';
+import {AiOutlineHistory} from 'react-icons/ai';
+import {FaRegCalendarTimes} from 'react-icons/fa';
+import {MdLogout} from 'react-icons/md';
+//import 'bootstrap/dist/css/bootstrap.min.css';  
+import { Dropdown} from 'react-bootstrap';  
 
 const Header =  () =>{
     return(
@@ -18,7 +24,18 @@ const Header =  () =>{
 
                     </Nav>
                     <Nav>
-                        <Nav.Link href="profile"><CgProfile/></Nav.Link>  
+                   <Dropdown>  
+                    <Dropdown.Toggle variant=" primary" id="dropdown-basic">  
+                    <Nav.Link><CgProfile/></Nav.Link>
+                    </Dropdown.Toggle>  
+  
+                    <Dropdown.Menu>  
+                        <Dropdown.Item href="#/action-1"><FaRegCalendarTimes/>My Appointments</Dropdown.Item>  
+                        <Dropdown.Item href="#/action-2"><AiOutlineHistory/>My History</Dropdown.Item>  
+                        <Dropdown.Item href="#/action-3"><FiSettings/>Settings</Dropdown.Item>  
+                        <Dropdown.Item href="#/action-3"><MdLogout/>Logout</Dropdown.Item>  
+                    </Dropdown.Menu>  
+                    </Dropdown>  
                     </Nav>
                 </Container>
             </Navbar>
